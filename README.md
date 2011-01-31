@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the code of the Safari Extension of the URL Shortener [xav.cc](http://xav.cc/). The plugin can be installed at [http://xav.cc/chrome-extension](http://xav.cc/safari-extension)
+This is the code of the Safari Extension of the URL Shortener [xav.cc](http://xav.cc/). The plugin can be installed at [http://xav.cc/safari-extension](http://xav.cc/safari-extension)
 
 ## License
 
