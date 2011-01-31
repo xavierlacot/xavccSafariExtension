@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>xav.cc</string>
+	<key>CFBundleDisplayName</key>
+	<string>xav.cc URL Shortener</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.xavcc.safari-extension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>shorten</string>
+				<key>Identifier</key>
+				<string>shortening button</string>
+				<key>Image</key>
+				<string>icon.png</string>
+				<key>Label</key>
+				<string>Shorten with xav.cc</string>
+				<key>Palette Label</key>
+				<string>Shorten with xav.cc</string>
+				<key>Tool Tip</key>
+				<string>Shorten with xav.cc</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>resultbar.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>jquery-1.4.4.min.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>resultbar.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>https://*/*</string>
+			<string>http://*/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>xav.cc is a full featured URL shortener. It aims at being the most complete and efficient tool on the market.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://xav.cc/</string>
+</dict>
+</plist>

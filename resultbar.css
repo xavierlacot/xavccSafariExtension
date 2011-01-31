@@ -1,0 +1,85 @@
+  #xavcc-shorturl-result * {
+    font-family: 'Gill Sans', 'Trebuchet MS', Verdana, Helvetica !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #xavcc-shorturl-result {
+    background: transparent url(images/bg-fff.png) !important;
+    border: 1px #ddd solid !important;
+    position: absolute !important;
+    top: 8px !important;
+    left: 8px !important;
+    width: 250px !important;
+    z-index: 10000 !important;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0 0 20px #000;
+  }
+
+  #xavcc-shorturl-result:hover {
+    background-color: #fff !important;
+  }
+
+  #xavcc-shorturl-result a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  #xavcc-shorturl-result body {
+    min-height: 30px !important;
+    min-width: 250px !important;
+    padding: 20px 0 0 0 !important;
+  }
+
+  #xavcc-shorturl-result ul {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-padding-start: 0 !important;
+  }
+
+  #xavcc-shorturl-result ul li {
+    list-style-type: none  !important;
+    min-height: 30px !important;
+  }
+
+  #xavcc-shorturl-result ul li a {
+    display: block !important;
+    min-height: 30px !important;
+    padding-left: 40px !important;
+    padding-top: 8px !important;
+  }
+
+  #xavcc-shorturl-result ul li:hover {
+    background-color: #eef !important;
+  }
+
+  #xavcc-shorturl-result .xavcc-shorturl-result-error {
+    color: red !important;
+    font-weight: bold !important;
+  }
+
+  #xavcc-shorturl-result #xavcc-shorturl-result-shorturl {
+    display: block !important;
+    font-size: 20px !important;
+    margin: 0 10px !important;
+    padding: 12px !important;
+  }
+
+  #xavcc-shorturl-result #xavcc-shorturl-result-view-details {
+    background: transparent url(./images/stats.png) 10px 8px no-repeat !important;
+  }
+
+  #xavcc-shorturl-result #xavcc-shorturl-result-twitter {
+    background: transparent url(./images/twitter.png) 10px 8px no-repeat !important;
+  }
+
+  #xavcc-shorturl-result #xavcc-shorturl-result-delicious {
+    background: transparent url(./images/delicious.png) 10px 8px no-repeat !important;
+  }
+
+  #xavcc-shorturl-result #xavcc-shorturl-result-blogmarks {
+    background: transparent url(./images/blogmarks.png) 10px 8px no-repeat !important;
+  }
